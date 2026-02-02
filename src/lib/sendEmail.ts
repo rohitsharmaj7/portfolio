@@ -5,6 +5,10 @@ import { Resend } from "resend";
 import { validateString, getErrorMessage } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
 
+if (!process.env.RESEND_API_KEY) {
+  throw new Error("RESEND_API_KEY is not set");
+}
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
@@ -26,7 +30,7 @@ export const sendEmail = async (formData: FormData) => {
   let data;
   try {
     data = await resend.emails.send({
-      from: "Contact Form <rohitsharmaj7@gmail.com>",
+      from: "Contact Form <onboarding@resend.dev>",
       to: "rohitsharmaj7@gmail.com",
       subject: "Message from contact form",
       replyTo: senderEmail,
