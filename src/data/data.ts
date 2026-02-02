@@ -61,7 +61,7 @@ export const skillsData = [
       {
         name: "OOP",
         icon: "material-symbols:code",
-      }
+      },
     ],
   },
   {
@@ -140,9 +140,9 @@ export const experiencesData = [
       "Collaborated with backend engineers and designers to deliver scalable, maintainable frontend solutions while adhering to business and performance requirements.",
       "Designed and developed reusable React components adopted across multiple production projects, cutting development effort by 50% and ensuring consistent UI standards.",
       "Took ownership of feature delivery, bug resolution, and incremental refactoring in a multi-project production environment.",
-      "Developed React components for the design system to reuse across different applications."
+      "Developed React components for the design system to reuse across different applications.",
     ],
-  }
+  },
 ] as const;
 
 export const educationData = [
@@ -175,12 +175,12 @@ export const projectsData = [
       "Leap Year Support: Handles leap years and all edge cases correctly",
       "Input Validation: Real-time validation with helpful error messages",
       "Smooth Animations: Framer Motion animations with spring physics",
-      "Mobile-First Design: Responsive layout with glassmorphism styling"
+      "Mobile-First Design: Responsive layout with glassmorphism styling",
     ],
     technologies: [
       { name: "React", icon: "logos:react" },
       { name: "Typescript", icon: "logos:typescript-icon" },
-      { name: "Tailwind", icon: "logos:tailwindcss-icon" }
+      { name: "Tailwind", icon: "logos:tailwindcss-icon" },
     ],
     links: [
       {
@@ -192,5 +192,5 @@ export const projectsData = [
     image: "/chrono-age.png",
     images: ["/chrono-age.png"],
     video: "",
-  }
+  },
 ] as const;
