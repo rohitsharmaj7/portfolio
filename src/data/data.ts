@@ -186,7 +186,7 @@ export const awardsData = [
     title: "Trainer of the Month - AI Powered Productivity Tools",
     issuer: "SearchUnify",
     href: "",
-    logoUrl: "/su.png",
+    logoUrl: "/training.png",
     date: "April 2025",
     description: [
       "Awarded for leading trainer award for delivering an engaging training on AI powered productivity tools.",
