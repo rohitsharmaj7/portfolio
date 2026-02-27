@@ -161,6 +161,39 @@ export const educationData = [
   },
 ] as const;
 
+export const awardsData = [
+  {
+    title: "Monthly Recognition",
+    issuer: "SearchUnify",
+    href: "",
+    logoUrl: "/award.png",
+    date: "Nov 2023",
+    description: [
+      "Recognized for outstanding contributions to the SearchUnify Product during the month of November.",
+    ],
+  },
+  {
+    title: "Star Performer",
+    issuer: "SearchUnify",
+    href: "",
+    logoUrl: "/star.png",
+    date: "October 2025",
+    description: [
+      "Awarded for key contributions to the Agentic Suite(A GenAI Product by SearchUnify) and SearchUnify",
+    ],
+  },
+  {
+    title: "Trainer of the Month - AI Powered Productivity Tools",
+    issuer: "SearchUnify",
+    href: "",
+    logoUrl: "/su.png",
+    date: "April 2025",
+    description: [
+      "Awarded for leading trainer award for delivering an engaging training on AI powered productivity tools.",
+    ],
+  },
+] as const;
+
 export const projectsData = [
   {
     title: "ChronoAge",

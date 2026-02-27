@@ -6,6 +6,7 @@ import { Skills } from "@/components/skills";
 import { Hero } from "@/components/hero";
 import { About } from "@/components/about";
 import { Education } from "@/components/education";
+import { Awards } from "@/components/awards";
 import { Work } from "@/components/work";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -21,11 +22,13 @@ export default function Page() {
 
       <Education delay={BLUR_FADE_DELAY * 7} />
 
-      <Projects delay={BLUR_FADE_DELAY * 9} />
+      <Awards delay={BLUR_FADE_DELAY * 9} />
 
-      <Skills delay={BLUR_FADE_DELAY * 11} />
+      <Projects delay={BLUR_FADE_DELAY * 11} />
 
-      <Contact delay={BLUR_FADE_DELAY * 13} />
+      <Skills delay={BLUR_FADE_DELAY * 13} />
+
+      <Contact delay={BLUR_FADE_DELAY * 15} />
     </main>
   );
 }
