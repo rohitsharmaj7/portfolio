@@ -16,9 +16,11 @@ export function Awards({ delay = 0 }: AwardsProps) {
           <h2 className="text-xl font-bold">Awards & Recognitions</h2>
         </BlurFade>
         {awardsData.map((award, id) => (
-          <BlurFade key={award.title + award.issuer} delay={delay + 0.01 + id * 0.05}>
+          <BlurFade
+            key={award.title + award.issuer}
+            delay={delay + 0.01 + id * 0.05}
+          >
             <ResumeCard
-              key={award.title + award.issuer}
               href={award.href}
               logoUrl={award.logoUrl || "/me.png"}
               altText={award.issuer}
