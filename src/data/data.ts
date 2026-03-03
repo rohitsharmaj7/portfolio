@@ -118,8 +118,7 @@ export const experiencesData = [
     logoUrl: "/su.png",
     start: "Jan 2026",
     end: "Present",
-    description: [
-    ],
+    description: [],
   },
   {
     company: "SearchUnify",
