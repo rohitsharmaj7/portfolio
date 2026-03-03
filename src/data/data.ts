@@ -110,14 +110,25 @@ export const contactData = {
 } as const;
 
 export const experiencesData = [
-  {
+   {
     company: "SearchUnify",
     href: "https://searchunify.com",
     location: "Panchkula, India",
     title: "Associate Technical Lead",
     logoUrl: "/su.png",
-    start: "Feb 2023",
+    start: "Jan 2026",
     end: "Present",
+    description: [
+    ],
+  },
+  {
+    company: "SearchUnify",
+    href: "https://searchunify.com",
+    location: "Panchkula, India",
+    title: "Senior Software Engineer",
+    logoUrl: "/su.png",
+    start: "Feb 2023",
+    end: "Dec 2025",
     description: [
       "Contributed to the development and evolution of an enterprise search SaaS platform used by 50+ enterprise customers, focusing on frontend architecture, performance, and maintainability",
       "Re-architected a core internal “Designer Tab” module, reducing client search-page customization time by 50% and significantly improving usability for Professional Services teams.",
