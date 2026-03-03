@@ -8,7 +8,7 @@ export const personalData = {
   location: "Chandigarh, India",
   locationLink: "https://www.google.com/maps/place/india",
   description:
-    "Full Stack Software Engineer at SearchUnify. I build web applications with a focus on performance and scalability.",
+    "Associate Tech Lead at SearchUnify. I build web applications with a focus on performance and scalability.",
   summary:
     "I'm a Software Engineer with **5 years of experience**, currently working in the Engineering team at SearchUnify. I specialise in building scalable systems, and solving platform-wide productivity and performance challenges across products like Searchnify - used by **60+ clients**. I hold a **Bachelor's degree in Computer Science** from Lovely Professional University. I enjoy exploring new tech in my free time.",
   avatarUrl: "/me.png",
