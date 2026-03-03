@@ -110,7 +110,7 @@ export const contactData = {
 } as const;
 
 export const experiencesData = [
-   {
+  {
     company: "SearchUnify",
     href: "https://searchunify.com",
     location: "Panchkula, India",
