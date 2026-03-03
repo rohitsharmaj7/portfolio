@@ -114,7 +114,7 @@ export const experiencesData = [
     company: "SearchUnify",
     href: "https://searchunify.com",
     location: "Panchkula, India",
-    title: "Senior Software Engineer",
+    title: "Associate Technical Lead",
     logoUrl: "/su.png",
     start: "Feb 2023",
     end: "Present",
